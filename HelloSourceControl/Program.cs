@@ -10,7 +10,9 @@ namespace HelloSourceControl
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Enter a number");
+            string greeting = Console.ReadLine();
+            Console.WriteLine(greeting);
             Console.ReadKey();
         }
     }
